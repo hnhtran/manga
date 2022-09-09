@@ -1,12 +1,15 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using MangaWebApp.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace MangaWebApp.Data
 {
     public class AppDbContext :DbContext
     {
-        public AppDbContext()
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
 
         }
+
+        public DbSet<Category> Categories { get; set; }
     }
 }
