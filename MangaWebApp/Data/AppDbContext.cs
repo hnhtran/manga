@@ -10,6 +10,6 @@ namespace MangaWebApp.Data
 
         }
 
-        public DbSet<Category> Categories { get; set; }
+        public DbSet<Category> CategoryTable { get; set; }
     }
 }
