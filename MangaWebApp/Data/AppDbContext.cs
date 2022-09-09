@@ -1,6 +1,12 @@
-﻿namespace MangaWebApp.Data
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace MangaWebApp.Data
 {
-    public class AppDbContext
+    public class AppDbContext :DbContext
     {
+        public AppDbContext()
+        {
+
+        }
     }
 }
