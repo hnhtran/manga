@@ -1,8 +1,6 @@
-﻿using System;
-
-public class Class1
+﻿namespace MangaWebApp.Models
 {
-	public Class1()
-	{
-	}
+    public class Category
+    {
+    }
 }
