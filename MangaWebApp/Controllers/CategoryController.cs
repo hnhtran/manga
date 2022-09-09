@@ -1,4 +1,5 @@
 ﻿using MangaWebApp.Data;
+using MangaWebApp.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MangaWebApp.Controllers
@@ -12,7 +13,7 @@ namespace MangaWebApp.Controllers
         }
         public IActionResult Index()
         {
-            var objCatList = _db.CategoryTable.ToList();
+            IEnumerable<Category> objCatList = _db.CategoryTable;
             return View();
         }
     }
