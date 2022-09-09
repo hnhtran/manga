@@ -28,7 +28,7 @@ namespace MangaWebApp.Controllers
         {
             if (obj.Name == obj.DisplayOrder.ToString())
             {
-                ModelState.AddModelError("CustomError", "Display Order and Name cannot be same");
+                ModelState.AddModelError("name", "Display Order and Name cannot be same");
             }
             if (ModelState.IsValid)
             {
