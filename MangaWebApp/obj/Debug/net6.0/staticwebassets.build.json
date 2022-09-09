@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Vf243tyVD5q9cvZF491D+kaFdI/9+47Qmu62m8Qd6R4=",
+  "Hash": "PW45+NTEaXjp976cgWXS+Uh22Uu7QB7t4+R9XTwn4TM=",
   "Source": "MangaWebApp",
   "BasePath": "_content/MangaWebApp",
   "Mode": "Default",
@@ -66,23 +66,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
-    },
-    {
-      "Identity": "C:\\Users\\tran_\\Documents\\projects\\Manga\\MangaWebApp\\wwwroot\\favicon.ico",
-      "SourceId": "MangaWebApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\tran_\\Documents\\projects\\Manga\\MangaWebApp\\wwwroot\\",
-      "BasePath": "_content/MangaWebApp",
-      "RelativePath": "favicon.ico",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
       "Identity": "C:\\Users\\tran_\\Documents\\projects\\Manga\\MangaWebApp\\wwwroot\\js\\site.js",
@@ -865,6 +848,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
+    },
+    {
+      "Identity": "C:\\Users\\tran_\\Documents\\projects\\Manga\\MangaWebApp\\wwwroot\\lib\\favicon.png",
+      "SourceId": "MangaWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tran_\\Documents\\projects\\Manga\\MangaWebApp\\wwwroot\\",
+      "BasePath": "_content/MangaWebApp",
+      "RelativePath": "lib/favicon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\favicon.png"
     },
     {
       "Identity": "C:\\Users\\tran_\\Documents\\projects\\Manga\\MangaWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",

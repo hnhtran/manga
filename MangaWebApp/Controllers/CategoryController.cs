@@ -14,7 +14,7 @@ namespace MangaWebApp.Controllers
         public IActionResult Index()
         {
             IEnumerable<Category> objCatList = _db.CategoryTable;
-            return View();
+            return View(objCatList);
         }
     }
 }
