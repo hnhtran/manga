@@ -16,5 +16,10 @@ namespace MangaWebApp.Controllers
             IEnumerable<Category> objCatList = _db.CategoryTable;
             return View(objCatList);
         }
+        // GET
+        public IActionResult Create()
+        {
+            return View();
+        }
     }
 }
