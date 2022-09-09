@@ -26,6 +26,10 @@ namespace MangaWebApp.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(Category obj)
         {
+            if (obj.Name == obj.DisplayOrder.ToString())
+            {
+                ModelState.AddModelError("CustomError", "Display Order and Name cannot be same");
+            }
             if (ModelState.IsValid)
             {
                 _db.CategoryTable.Add(obj);
