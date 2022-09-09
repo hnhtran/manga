@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PW45+NTEaXjp976cgWXS+Uh22Uu7QB7t4+R9XTwn4TM=",
+  "Hash": "YUEoLQgRzUPupevWehAvgIv/Z/PV46Dp79Vpm2YcEPA=",
   "Source": "MangaWebApp",
   "BasePath": "_content/MangaWebApp",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\tran_\\Documents\\projects\\Manga\\MangaWebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MangaWebApp.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\tran_\\Documents\\projects\\Manga\\MangaWebApp\\wwwroot\\css\\bootswatchtheme.css",
+      "SourceId": "MangaWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tran_\\Documents\\projects\\Manga\\MangaWebApp\\wwwroot\\",
+      "BasePath": "_content/MangaWebApp",
+      "RelativePath": "css/bootswatchtheme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootswatchtheme.css"
     },
     {
       "Identity": "C:\\Users\\tran_\\Documents\\projects\\Manga\\MangaWebApp\\wwwroot\\css\\site.css",
