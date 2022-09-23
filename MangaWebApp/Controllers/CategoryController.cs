@@ -46,8 +46,15 @@ namespace MangaWebApp.Controllers
             {
                 return NotFound();
             }
-            var catFromDb = _db.CategoryTable.SingleOrDefault(x => x.Id == id);
-            return View();
+            var catFromDb = _db.CategoryTable.Find(id);
+            //var catFromDbFirst = _db.CategoryTable.FirstOrDefault(c => c.Id == id);
+            //var catFromDbWhere = _db.CategoryTable.SingleOrDefault(c => c.Id == id);
+
+            if (catFromDb == null)
+            {
+                return NotFound();
+            }
+            return View(catFromDb);
         }
         // POST
         [HttpPost]
@@ -60,11 +67,43 @@ namespace MangaWebApp.Controllers
             }
             if (ModelState.IsValid)
             {
-                _db.CategoryTable.Add(obj);
+                _db.CategoryTable.Update(obj);
                 _db.SaveChanges();
                 return RedirectToAction("Index");
             }
             return View(obj);
+        }
+
+        // GET
+        public IActionResult Delete(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+            var catFromDb = _db.CategoryTable.Find(id);
+            //var catFromDbFirst = _db.CategoryTable.FirstOrDefault(c => c.Id == id);
+            //var catFromDbWhere = _db.CategoryTable.SingleOrDefault(c => c.Id == id);
+
+            if (catFromDb == null)
+            {
+                return NotFound();
+            }
+            return View(catFromDb);
+        }
+        // POST
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeletePost(int? id)
+        {
+            var obj = _db.CategoryTable.Find(id);
+            if (obj == null)
+            {
+                return NotFound();
+            }
+                _db.CategoryTable.Remove(obj);
+                _db.SaveChanges();
+            return RedirectToAction("Index");
         }
 
     }
