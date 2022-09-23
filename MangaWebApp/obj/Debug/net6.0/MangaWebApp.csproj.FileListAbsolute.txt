@@ -58,7 +58,6 @@ C:\Users\tran_\Documents\projects\Manga\MangaWebApp\bin\Debug\net6.0\MessagePack
 C:\Users\tran_\Documents\projects\Manga\MangaWebApp\bin\Debug\net6.0\MessagePack.Annotations.dll
 C:\Users\tran_\Documents\projects\Manga\MangaWebApp\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\tran_\Documents\projects\Manga\MangaWebApp\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\tran_\Documents\projects\Manga\MangaWebApp\bin\Debug\net6.0\Microsoft.Build.Locator.dll
 C:\Users\tran_\Documents\projects\Manga\MangaWebApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
 C:\Users\tran_\Documents\projects\Manga\MangaWebApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
 C:\Users\tran_\Documents\projects\Manga\MangaWebApp\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -551,3 +550,6 @@ C:\Users\tran_\Documents\projects\Manga\MangaWebApp\bin\Debug\net6.0\Microsoft.A
 C:\Users\tran_\Documents\projects\Manga\MangaWebApp\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 C:\Users\tran_\Documents\projects\Manga\MangaWebApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\tran_\Documents\projects\Manga\MangaWebApp\obj\Debug\net6.0\MangaWebApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\tran_\Documents\projects\Manga\MangaWebApp\bin\Debug\net6.0\Microsoft.Build.dll
+C:\Users\tran_\Documents\projects\Manga\MangaWebApp\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+C:\Users\tran_\Documents\projects\Manga\MangaWebApp\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
