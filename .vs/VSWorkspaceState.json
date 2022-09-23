@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\MangaWebApp"
+    "\\MangaWebApp",
+    "\\MangaWebApp\\Controllers",
+    "\\MangaWebApp\\Models",
+    "\\MangaWebApp\\Views"
   ],
   "SelectedNode": "\\Manga.sln",
   "PreviewInSolutionExplorer": false
