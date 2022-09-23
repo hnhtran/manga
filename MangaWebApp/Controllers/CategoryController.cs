@@ -34,6 +34,7 @@ namespace MangaWebApp.Controllers
             {
                 _db.CategoryTable.Add(obj);
                 _db.SaveChanges();
+                TempData["success"] = "Successfully create category";
                 return RedirectToAction("Index");
             }
             return View(obj);
@@ -69,6 +70,7 @@ namespace MangaWebApp.Controllers
             {
                 _db.CategoryTable.Update(obj);
                 _db.SaveChanges();
+                TempData["success"] = "Successfully edit category";
                 return RedirectToAction("Index");
             }
             return View(obj);
@@ -92,7 +94,7 @@ namespace MangaWebApp.Controllers
             return View(catFromDb);
         }
         // POST
-        [HttpPost]
+        [HttpPost,ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public IActionResult DeletePost(int? id)
         {
@@ -103,6 +105,7 @@ namespace MangaWebApp.Controllers
             }
                 _db.CategoryTable.Remove(obj);
                 _db.SaveChanges();
+            TempData["success"] = "Successfully delete category";
             return RedirectToAction("Index");
         }
 
